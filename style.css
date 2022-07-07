@@ -1,0 +1,235 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.topFixedBanner{
+    background-image: url("./Asset/images/donation9.jpg");
+    min-height: 570px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topBannerOverlay{
+    position: absolute;
+    min-height: 570px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.topContent{
+    margin-top: 12rem;
+}
+.topTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 500;
+    color: rgb(201, 240, 210);
+    font-size: 48px;
+    margin-top: 10px;
+  }
+.topSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    color: #e7e7e7;
+    font-size: 14px;
+}
+.topText{
+     text-align: center;
+     margin-top: 120px;
+    
+}
+.topButton{
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 0px solid white;
+    background-color: rgb(225, 18, 18);
+    
+}
+.buttonText{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    color: #f1f1f1;
+    font-size: 12px;
+}
+/* Donate today section */
+.donateText{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+   
+}
+.donateTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 700;
+    color: rgb(25, 25, 28);
+    font-size: 48px;
+    margin-top: 10px;
+}
+.donateSubTitle{
+  font-family: 'Raleway',sans-serif;
+  font-weight: 400;
+  color: #a49393;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.amount{
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid rgb(246, 242, 242) ;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+.donateSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.amout-text{
+    margin-top:18px;
+}
+.donate-amout{
+    text-align: center;
+    margin-top: 50px;
+}
+.donateButton{
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: red;
+}
+.donateInput{
+    height: 25px;
+    width: 600px;
+    border: 2px solid rgb(235, 223, 223);
+    border-radius: 5px;
+    padding: 5px;
+
+}
+::placeholder {
+    color: rgb(102, 50, 50);
+    text-align: center;
+    font-size: 20px;
+  }
+  .card{
+    height: 240px;
+    width: 300px;
+    margin: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid rgb(246, 242, 242) ;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}  
+.cardTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 700;
+    color: rgb(25, 25, 28);
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cardSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    color: #a49393;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+.cardImg{
+    text-align: center;
+}
+.contribute{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f8f8f8;
+   
+}
+.contribute-item{
+    height: 450px;
+    width: 450px;
+    border: 0px solid white;
+    padding: 30px;
+    border-radius: 100px;
+   
+}
+.contribute-item1{
+    height: 450px;
+    width: 520px;
+    border: 0px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.contributeImg{
+    border: 0px solid white;
+    border-radius: 10px;
+    margin-right: 30px
+}
+.ContributeButton{
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: red;
+}
+.update{
+    justify-content: center;
+}
+.subscripbeEmail{
+        height: 25px;
+        width: 600px;
+        border: 2px solid rgb(235, 223, 223);
+        border-radius: 5px;
+        padding: 5px;
+}
+.subscribeBtn{
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: red;
+}
+.subscribeSection{
+    background-color: antiquewhite;
+    padding: 25px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+    min-height: 100px;
+    padding: 50px;
+    margin-top: 50px;
+}
+.footerTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 700;
+    color: rgb(23, 230, 147);
+    font-size: 26px;
+}
+.footerSubTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 10px;
+}
